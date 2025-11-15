@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,7 +48,8 @@
 <main>
     <h2>Welcome</h2>
     <p>
-        This platform exists to restore fairness in a system where fear, confusion and imbalance too often rule.
+        <h1>This platform exists to restore fairness in a system where fear, confusion and imbalance too often rule.</H1>
+        
         Everyday Advocacy is built for real people facing real pressures — from debt collection to council tax issues,
         housing problems, and everyday legal challenges.
     </p>
