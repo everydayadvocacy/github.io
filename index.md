@@ -48,7 +48,7 @@
 <main>
     <h2>Welcome</h2>
     <p>
-        <h1>This platform exists to restore fairness in a system where fear, confusion and imbalance too often rule.</H1>
+        <h2>This platform exists to restore fairness in a system where fear, confusion and imbalance too often rule.</h2>
         
         Everyday Advocacy is built for real people facing real pressures — from debt collection to council tax issues,
         housing problems, and everyday legal challenges.
