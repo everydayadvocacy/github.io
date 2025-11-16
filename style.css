@@ -67,22 +67,7 @@ body {
     width: auto;
     margin-right: 15px;
 }
-/* Header with logo */
-.site-header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: #222;
-    color: #fff;
-    padding: 20px;
-}
 
-/* Logo image */
-.header-logo {
-    height: 50px;
-    width: auto;
-    display: block;
-}
 
 /* Title text */
 .header-text h1 {
