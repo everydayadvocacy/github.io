@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Everyday Advocacy</title>
+
+    <link rel="stylesheet" href="styles.css">
 
     <style>
         body {
@@ -16,19 +17,60 @@
             color: #333;
         }
 
+        /* NAV BAR */
+        .navbar {
+            background: #222;
+            color: #fff;
+            padding: 10px 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-left {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .nav-center {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* HEADER */
         header {
             background: #222;
             color: #fff;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
         }
 
+        /* MAIN CONTENT */
         main {
             padding: 20px;
             max-width: 900px;
             margin: auto;
-            background: white;
-            margin-top: 20px;
+            background: #fff;
+            margin-top: 30px;
             border-radius: 8px;
         }
 
@@ -39,41 +81,6 @@
             font-size: 0.9em;
             color: #666;
         }
-        /* Navigation bar container */
-.navbar {
-    background: #222;
-    color: #fff;
-    padding: 10px 20px;
-
-    display: flex;
-    align-items: center;
-
-    /* Key part: space between elements */
-    justify-content: space-between;
-}
-
-/* Wrapper to control centering of menu links */
-.nav-center {
-    flex: 1;
-    display: flex;
-    justify-content: center; /* centers menu */
-}
-
-/* Menu links */
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
 
         h2.strike {
             font-weight: bold;
@@ -82,10 +89,13 @@
             margin-top: 0;
         }
     </style>
+
 </head>
 <body>
+
+<!-- NAVIGATION BAR -->
 <nav class="navbar">
-    <div class="nav-left"><strong>Everyday Advocacy</strong></div>
+    <div class="nav-left">Everyday Advocacy</div>
 
     <div class="nav-center">
         <ul class="nav-links">
@@ -101,11 +111,14 @@
         </ul>
     </div>
 </nav>
+
+<!-- HEADER -->
 <header>
     <h1>Everyday Advocacy</h1>
     <p>Empowering fairness, dignity and clarity.</p>
 </header>
 
+<!-- MAIN CONTENT -->
 <main>
     <h2 class="strike">This platform exists to restore fairness in a system where fear, confusion and imbalance too often rule.</h2>
 
@@ -120,6 +133,7 @@
     </p>
 
     <h3>Why this matters</h3>
+
     <p>
         A victim is a victim — financial, legal, medical or emotional.  
         Everyday Advocacy believes justice must never depend on money, status or representation.
@@ -128,6 +142,7 @@
     </p>
 </main>
 
+<!-- FOOTER -->
 <footer>
     <p>“Every day is a school day.” — Learning empowers fairness.</p>
 </footer>
