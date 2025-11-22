@@ -12,28 +12,53 @@
         body {
             background: #f4f4f4;
             color: #333;
+            font-family: "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
         }
         main {
-            max-width: 900px;
-            margin: 30px auto;
+            max-width: 950px;
+            margin: 40px auto;
             background: #fff;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 25px;
             margin-top: 40px;
             font-size: 0.9em;
             color: #666;
         }
-        h2.strike {
-            font-weight: bold;
-            font-size: 1.5em;
-            line-height: 1.4;
+        h1, h2, h6 {
+            font-weight: 600;
+        }
+        h2 {
+            margin-top: 35px;
         }
         ul li {
-            margin-bottom: 10px; /* Bullet point spacing */
+            margin-bottom: 10px;
+        }
+        /* Gradient Header */
+        header {
+            background: linear-gradient(135deg, #212529, #3c4250);
+        }
+        /* Stats Cards */
+        .stat-card {
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        /* Call to Action */
+        .cta-box {
+            background: #f8f9fa;
+            border-left: 5px solid #0d6efd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -63,9 +88,9 @@
 </nav>
 
 <!-- HEADER -->
-<header class="bg-dark text-white text-center py-5">
+<header class="text-white text-center py-5 shadow-sm">
     <h1>Resolve & Protect</h1>
-    <p>Empowering fairness, dignity and clarity.</p>
+    <p class="lead">Empowering fairness, dignity and clarity.</p>
 </header>
 
 <!-- MAIN CONTENT -->
@@ -83,21 +108,49 @@
     </ul>
 
     <h2>The Reality in Numbers</h2>
-    <ul>
-        <li><strong>Household Debt-to-Income Ratio:</strong> By mid-2025, households owed 117% of their disposable income.</li>
-        <li><strong>Consumer Credit:</strong> After early 2020 repayments, borrowing grew again by 2024 — mainly from credit cards and loans.</li>
-        <li><strong>Energy Arrears:</strong> Millions accumulated debts during the 2022 crisis, often unable to clear them before switching suppliers.</li>
-        <li><strong>Insolvencies:</strong> 30,494 individual insolvencies in Q2 2025 — a sign of systemic strain, not personal failure.</li>
-    </ul>
 
-    <h6 class="text-muted">Sources: Bank of England, House of Commons Library, Citizens Advice</h6>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="stat-card">
+                <h4>117% Debt-to-Income</h4>
+                <p>By mid-2025, households owed more than their yearly disposable income.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="stat-card">
+                <h4>Rising Consumer Credit</h4>
+                <p>Borrowing rebounded by 2024, driven by credit cards and personal loans.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="stat-card">
+                <h4>Energy Arrears Surge</h4>
+                <p>Millions fell behind on bills during the 2022 energy crisis with no escape route.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="stat-card">
+                <h4>30,494 Insolvencies</h4>
+                <p>Q2 2025 insolvencies highlight systemic failure — not personal failure.</p>
+            </div>
+        </div>
+    </div>
+
+    <h6 class="text-muted mt-3">Sources: Bank of England, House of Commons Library, Citizens Advice</h6>
 
     <h2>Our Promise</h2>
-    <p>This site offers free, unbiased, and non-judgmental advice. We understand debt isn’t about luxury — it’s about survival in a system that failed many. Our goal is to help you understand your rights, challenge unfair practices, and regain control with clarity and confidence.</p>
+    <p>This site offers free, unbiased, and non-judgmental advice. We understand debt isn’t about luxury — it’s about survival in a system that failed many. Our mission is to help you understand your rights, challenge unfair practices, and regain control with clarity and confidence.</p>
 
     <h2>Why This Matters</h2>
     <p>A victim is a victim — financial, legal, medical or emotional. Justice should never depend on a person's bank balance, especially when hardship was caused by events outside their control.</p>
     <p>We are not solicitors, nor do we claim to be. We aim to create awareness and self-empowerment so you can take back control with confidence and dignity.</p>
+
+    <!-- CALL TO ACTION -->
+    <div class="cta-box mt-5">
+        <h4>Need help but not sure where to start?</h4>
+        <p>Begin with the section that matches your situation. Each page breaks complex issues into clear, simple steps you can act on immediately.</p>
+        <a href="council-tax.html" class="btn btn-primary btn-lg mt-2">Start Here</a>
+    </div>
 </main>
 
 <!-- FOOTER -->
